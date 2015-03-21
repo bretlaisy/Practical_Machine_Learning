@@ -89,7 +89,7 @@ confusionMatrix(predict2, mysubtest$classe)
 
 ## Applying the algorithm to 20 test cases
 ```{r}
-predict <- predict(mod2, testset, type="class")
+predict <- predict(model2, testset, type="class")
 head(predict,20)
 ```
 
